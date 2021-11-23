@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+#first-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/Images/forestImage.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.fp {
+  height: 100%;
+  width: 100%;
+}
+
+.fp-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20%;
+  width: 100%;
+}
+
+.fp-top-1 {
+  width: 15%;
+}
+
+.fp-top-1 a img {
+  width: auto;
+  height: 50px;
+}
+
+.fp-top-2 {
+  width: 70%;
+}
+
+.fp-top-2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fp-top-2 ul li {
+  list-style: none;
+  padding-right: 30px;
+  font-family: oswald;
+  font-size: 20px;
+}
+
+.fp-top-2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.fp-top-3 {
+  width: 15%;
+}
+
+.fp-top-3 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.fp-top-3 ul li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.fp-top-3 ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.fp-center {
+  width: 100%;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fp-center-1 {
+  width: 50%;
+  border-left: 2px solid #86DA44;
+  margin-left: 95px;
+  padding-left: 95px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fp-center-1-1 {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fp-center-1-1 button {
+  width: 30%;
+  height: 30px;
+}
+
+.fp-center-1-1 .p-1 {
+  font-size: 60px;
+  font-family: oswald;
+  color: white;
+  font-weight: 300;
+}
+
+.fp-center-1-1 p {
+  font-size: 15px;
+  font-family: oswald;
+  color: white;
+  font-weight: 100;
+}
+
+.fp-center-2 {
+  width: 50%;
+}
+
+.fp-bottom {
+  width: 100%;
+  height: 20%;
+}
+/*# sourceMappingURL=main.css.map */
